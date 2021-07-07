@@ -9,7 +9,7 @@ services:
       - 5050:80
     links:
       - mysql
-    container_name: php7.2
+    container_name: phpstudy-php7.4
     build:
       context: ./php
       dockerfile: Dockerfile
@@ -23,7 +23,7 @@ services:
       - MYSQL_DATABASE=test
       - MYSQL_USER=test
       - MYSQL_PASSWORD=test
-    container_name: mysql
+    container_name: phpstudy-mysql
     ports:
       - 33006:33006
   phpmyadmin:
@@ -39,4 +39,4 @@ services:
       - 4040:80
     volumes:
       - ./phpmyadmin/sessions:/sessions
-    container_name: phpMyAdmin
+    container_name: phpstudy-phpMyAdmin
