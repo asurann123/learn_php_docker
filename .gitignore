@@ -1,0 +1,7 @@
+﻿.idea
+mysql/data/mysql
+mysql/data/performance_schema
+mysql/data/test
+mysql/data/sys
+*.cnf
+mysql/data
