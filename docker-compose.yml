@@ -5,6 +5,7 @@ services:
     #image: php:7.2-apache <- DockerFileで読み込んでいるのでいらない(buildセクションで行っている)
     volumes:
       - ./src:/var/www/html
+      - ./php/php.ini:/usr/local/etc/php/php.ini
     ports:
       - 5050:80
     links:
@@ -13,6 +14,7 @@ services:
     build:
       context: ./php
       dockerfile: Dockerfile
+    tty: true
   mysql:
     image: mysql:5.7
     volumes:
