@@ -19,8 +19,11 @@
       -> src/practice/manu.phpの場合[http://localhost:5050/practice/php/menu.php]にアクセスする  
      
 2. phpMyAdmin  
+   * http://localhost:4040/index.php?
    * rootアカウントでログインされているので、基本的には何でもし放題??🥺
 
+3. MySQL
+   * port:33006
 ---
 
 ## docker-composeやDockerFileを変更した場合
