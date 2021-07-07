@@ -1,3 +1,4 @@
+#php:8.0-apacheでも動くことを確認済み
 FROM php:7.4-apache
 
 #PDOのMySQLドライバーをインストール
