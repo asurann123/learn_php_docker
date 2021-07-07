@@ -5,7 +5,8 @@
 
 ## セットアップ
 1. mkdir {appropriate directory name}
-2. git clone {this repository url}
+2. git clone {this repository url} .  
+→ . を付けておくことでgit cloneしたときにphpstudy_dockerというディレクトリが作成されないようになる
 3. docker compose up -d
 4. Complete!!!
 
