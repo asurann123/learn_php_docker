@@ -31,8 +31,6 @@
 
 ## docker-composeやDockerFileを変更した場合
 PHPやMySQLのバージョンを変更した場合等  
-1. 動いているDockerコンテナを停止
-2. Dockerコンテナを削除
-3. docker compose buildを実施
-4. docker compose up -d
-5. OK!!!!!!!
+1. docker compose buildを実施
+2. docker compose up -d
+3. OK!!!!!!!
