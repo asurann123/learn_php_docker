@@ -11,6 +11,7 @@ services:
     links:
       - mysql
     container_name: phpstudy-php7.4
+    stdin_open: true
     build:
       context: ./php
       dockerfile: Dockerfile
