@@ -17,6 +17,9 @@
    * http://localhost:5050/
    * src配下のファイルが対象  
       -> src/practice/manu.phpの場合[http://localhost:5050/practice/php/menu.php]にアクセスする  
+   * Xdebugでデバッグできます。  
+      -> Port:9001でリッスンしているのでその通りに設定後、該当のファイルをブラウザで開きます。
+   * PDO入れてあるのでPHPからのDB接続も可能です。
      
 2. phpMyAdmin  
    * http://localhost:4040/index.php?
