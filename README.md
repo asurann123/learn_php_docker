@@ -1,6 +1,6 @@
 # phpstudy_docker
 - phpの勉強環境をdockerにて構築
-- PHP(PDO含),MySQL,phpMyAdmin環境を一発で構築
+- PHP(PDO,Xdebug含),MySQL,phpMyAdmin環境を一発で構築
 ---
 
 ## セットアップ
