@@ -5,3 +5,7 @@ mysql/data/test
 mysql/data/sys
 mysql/data
 src/practice
+src/vendor/
+
+src/composer.lock
+src/composer.json
