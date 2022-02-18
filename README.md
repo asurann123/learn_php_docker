@@ -21,13 +21,13 @@
 
 ## Specifications
 1. PHP
-   * Listening to "http: // localhost: 5050 /"
+   * Listening to "http://localhost:5050/"
    * You can debug with Xdebug.
      * Port: 9001 is listening, so after setting it as it is, open the corresponding file in the browser.
    * Since PDO is included, DB connection from PHP is also possible.
      
 2. phpMyAdmin  
-   * Access to phpMyAdmin is "http: //localhost:4040/index.php?"
+   * Access to phpMyAdmin is "http://localhost:4040/index.php?"
      * Login by root
 
 3. MySQL
